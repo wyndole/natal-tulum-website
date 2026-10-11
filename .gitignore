@@ -1,0 +1,7 @@
+# Full-size originals stay on the D: drive only (too large for GitHub)
+photos-original/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+__pycache__/
