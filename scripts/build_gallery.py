@@ -1,32 +1,30 @@
-"""Turn the original photos into web-sized images and write gallery.json.
+"""Build the website gallery from your original photos.
 
 Usage (from the project folder):
-    pip install pillow
     python scripts/build_gallery.py
 
-Reads:  photos-original/  (full-size photos downloaded from the Google Photos "Natal" album)
-Writes: images/gallery/<name>.jpg (1800px long edge), images/gallery/thumbs/<name>.jpg (700px)
-        gallery.json  (order = filename order; rename files 01-..., 02-... to control order)
+Reads photos.json, the list of picked photos. Each entry:
+    {"src": "TUL00404.JPG", "name": "01-patio", "alt": "description", "hero": true}
+  src  - file name inside photos-original/ (searched in subfolders too, e.g. photos-original/Natal/)
+  name - output name; the gallery follows the order of photos.json
+  alt  - short description (for accessibility and Google)
+  hero - optional; this photo becomes the big cover image at the top of the page
+To swap a photo, change "src". To drop one, delete its line. To reorder, move lines.
 
-To pick the hero photo, name its file starting with "hero" (e.g. hero-pool.jpg).
-Existing alt text in gallery.json is kept when you re-run.
+Writes images/gallery/<name>.jpg (1800px), images/gallery/thumbs/<name>.jpg (700px) and gallery.json.
 """
-import json, re
+import json
 from pathlib import Path
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC, OUT = ROOT / "photos-original", ROOT / "images" / "gallery"
+SRC = ROOT / "photos-original"
+OUT = ROOT / "images" / "gallery"
 THUMBS = OUT / "thumbs"
-EXTS = {".jpg", ".jpeg", ".png", ".webp", ".heic"}
 
-try:
-    from pillow_heif import register_heif_opener; register_heif_opener()
-except ImportError:
-    pass
-
-def slug(name):
-    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+def find(name):
+    hits = [p for p in SRC.rglob(name) if "_review" not in p.parts]
+    return hits[0] if hits else None
 
 def save(img, path, edge, q):
     im = img.copy(); im.thumbnail((edge, edge), Image.LANCZOS)
@@ -34,27 +32,24 @@ def save(img, path, edge, q):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True); THUMBS.mkdir(exist_ok=True)
-    old = {}
-    gj = ROOT / "gallery.json"
-    if gj.exists():
-        old = {p["full"]: p for p in json.loads(gj.read_text(encoding="utf-8"))}
+    picks = json.loads((ROOT / "photos.json").read_text(encoding="utf-8"))
     entries = []
-    files = sorted(p for p in SRC.iterdir() if p.suffix.lower() in EXTS)
-    for f in files:
-        name = slug(f.stem) + ".jpg"
-        full, thumb = f"images/gallery/{name}", f"images/gallery/thumbs/{name}"
-        try:
-            img = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
-        except Exception as e:
-            print(f"skip {f.name}: {e}"); continue
+    for p in picks:
+        f = find(p["src"])
+        if not f:
+            print("MISSING", p["src"]); continue
+        img = Image.open(f); img.draft("RGB", (3600, 3600))
+        img = ImageOps.exif_transpose(img).convert("RGB")
+        img = ImageOps.autocontrast(img, cutoff=0.3, preserve_tone=True)  # gentle levels fix
+        name = p["name"] + ".jpg"
         save(img, OUT / name, 1800, 82)
         save(img, THUMBS / name, 700, 78)
-        entry = {"full": full, "thumb": thumb, "alt": old.get(full, {}).get("alt", "")}
-        if f.stem.lower().startswith("hero"): entry["hero"] = True
-        entries.append(entry)
-        print("ok", f.name, "->", name)
-    gj.write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\n{len(entries)} photos written to gallery.json")
+        e = {"full": f"images/gallery/{name}", "thumb": f"images/gallery/thumbs/{name}", "alt": p.get("alt", "")}
+        if p.get("hero"): e["hero"] = True
+        entries.append(e)
+        print("ok", p["src"], "->", name)
+    (ROOT / "gallery.json").write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"\n{len(entries)} photos -> gallery.json")
 
 if __name__ == "__main__":
     main()

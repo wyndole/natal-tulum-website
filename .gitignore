@@ -5,3 +5,11 @@ Thumbs.db
 desktop.ini
 .vscode/
 __pycache__/
+*.zip
+*.ARW
+*.arw
+*.MP4
+*.mp4
+*.MOV
+*.mov
+_review/

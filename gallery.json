@@ -1,1 +1,133 @@
-[]
+[
+  {
+    "full": "images/gallery/00-pool-night.jpg",
+    "thumb": "images/gallery/thumbs/00-pool-night.jpg",
+    "alt": "Natal's main pool and loungers lit up at night",
+    "hero": true
+  },
+  {
+    "full": "images/gallery/01-patio-dipping-pool.jpg",
+    "thumb": "images/gallery/thumbs/01-patio-dipping-pool.jpg",
+    "alt": "Ground-floor patio with private dipping pool at dusk"
+  },
+  {
+    "full": "images/gallery/02-living-room.jpg",
+    "thumb": "images/gallery/thumbs/02-living-room.jpg",
+    "alt": "Living room with sectional sofa and dining area"
+  },
+  {
+    "full": "images/gallery/03-living-dining.jpg",
+    "thumb": "images/gallery/thumbs/03-living-dining.jpg",
+    "alt": "Open living and dining area looking toward the kitchen"
+  },
+  {
+    "full": "images/gallery/04-dining-living.jpg",
+    "thumb": "images/gallery/thumbs/04-dining-living.jpg",
+    "alt": "Dining table and living area with garden light"
+  },
+  {
+    "full": "images/gallery/05-kitchen.jpg",
+    "thumb": "images/gallery/thumbs/05-kitchen.jpg",
+    "alt": "Kitchen with sink, coffee maker and stone counters"
+  },
+  {
+    "full": "images/gallery/06-kitchen-fridge.jpg",
+    "thumb": "images/gallery/thumbs/06-kitchen-fridge.jpg",
+    "alt": "Kitchen with stainless refrigerator"
+  },
+  {
+    "full": "images/gallery/07-primary-bedroom.jpg",
+    "thumb": "images/gallery/thumbs/07-primary-bedroom.jpg",
+    "alt": "Primary bedroom with king bed and open closet"
+  },
+  {
+    "full": "images/gallery/08-bedroom-pool-view.jpg",
+    "thumb": "images/gallery/thumbs/08-bedroom-pool-view.jpg",
+    "alt": "Bedroom opening onto the private dipping pool"
+  },
+  {
+    "full": "images/gallery/09-second-bedroom.jpg",
+    "thumb": "images/gallery/thumbs/09-second-bedroom.jpg",
+    "alt": "Second bedroom with queen bed and closet"
+  },
+  {
+    "full": "images/gallery/10-bathroom.jpg",
+    "thumb": "images/gallery/thumbs/10-bathroom.jpg",
+    "alt": "Bathroom with walk-in rain shower"
+  },
+  {
+    "full": "images/gallery/11-second-bathroom.jpg",
+    "thumb": "images/gallery/thumbs/11-second-bathroom.jpg",
+    "alt": "Second bathroom with glass shower"
+  },
+  {
+    "full": "images/gallery/12-terrace.jpg",
+    "thumb": "images/gallery/thumbs/12-terrace.jpg",
+    "alt": "Covered terrace with wicker chairs"
+  },
+  {
+    "full": "images/gallery/13-terrace-evening.jpg",
+    "thumb": "images/gallery/thumbs/13-terrace-evening.jpg",
+    "alt": "Terrace in the evening looking out to the garden"
+  },
+  {
+    "full": "images/gallery/14-dipping-pool.jpg",
+    "thumb": "images/gallery/thumbs/14-dipping-pool.jpg",
+    "alt": "Private dipping pool with wood deck"
+  },
+  {
+    "full": "images/gallery/15-main-pool.jpg",
+    "thumb": "images/gallery/thumbs/15-main-pool.jpg",
+    "alt": "Main pool and palapa with sun loungers"
+  },
+  {
+    "full": "images/gallery/16-palapa-pool.jpg",
+    "thumb": "images/gallery/thumbs/16-palapa-pool.jpg",
+    "alt": "Palapa bar beside the pool"
+  },
+  {
+    "full": "images/gallery/17-pool-loungers.jpg",
+    "thumb": "images/gallery/thumbs/17-pool-loungers.jpg",
+    "alt": "Poolside loungers under woven lamps"
+  },
+  {
+    "full": "images/gallery/18-complex-aerial.jpg",
+    "thumb": "images/gallery/thumbs/18-complex-aerial.jpg",
+    "alt": "View over Natal's pools and jungle gardens"
+  },
+  {
+    "full": "images/gallery/19-lounge-seating.jpg",
+    "thumb": "images/gallery/thumbs/19-lounge-seating.jpg",
+    "alt": "Sunken lounge seating by the pool"
+  },
+  {
+    "full": "images/gallery/20-clubhouse.jpg",
+    "thumb": "images/gallery/thumbs/20-clubhouse.jpg",
+    "alt": "Open-air clubhouse lounge"
+  },
+  {
+    "full": "images/gallery/21-clubhouse-bar.jpg",
+    "thumb": "images/gallery/thumbs/21-clubhouse-bar.jpg",
+    "alt": "Clubhouse bar and seating"
+  },
+  {
+    "full": "images/gallery/22-gym.jpg",
+    "thumb": "images/gallery/thumbs/22-gym.jpg",
+    "alt": "Fitness center with cardio and weights"
+  },
+  {
+    "full": "images/gallery/23-jungle-view.jpg",
+    "thumb": "images/gallery/thumbs/23-jungle-view.jpg",
+    "alt": "Rooftop view over the jungle canopy"
+  },
+  {
+    "full": "images/gallery/24-pools-at-night.jpg",
+    "thumb": "images/gallery/thumbs/24-pools-at-night.jpg",
+    "alt": "Pools and gardens at night"
+  },
+  {
+    "full": "images/gallery/25-natal-towel.jpg",
+    "thumb": "images/gallery/thumbs/25-natal-towel.jpg",
+    "alt": "Natal towel detail"
+  }
+]
