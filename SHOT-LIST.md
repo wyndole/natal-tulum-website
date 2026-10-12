@@ -27,4 +27,5 @@
 - [ ] La Veleta street / nearby cafés
 
 ## From earlier trips
-- [ ] 3–5 best: beach, Tulum ruins, cenote → photos-original/Around-Tulum/
+- [x] Beach + ruins added (8 in Around Tulum strip)
+- [ ] Cenote photo (none in the set yet)

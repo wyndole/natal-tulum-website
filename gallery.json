@@ -129,5 +129,61 @@
     "full": "images/gallery/25-natal-towel.jpg",
     "thumb": "images/gallery/thumbs/25-natal-towel.jpg",
     "alt": "Natal towel detail"
+  },
+  {
+    "full": "images/gallery/around-01-ruins-sea.jpg",
+    "thumb": "images/gallery/thumbs/around-01-ruins-sea.jpg",
+    "alt": "Tulum's ruins above the Caribbean",
+    "alt_es": "Las ruinas de Tulum sobre el Caribe",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-02-beach-cliffs.jpg",
+    "thumb": "images/gallery/thumbs/around-02-beach-cliffs.jpg",
+    "alt": "The beach below the ruins",
+    "alt_es": "La playa al pie de las ruinas",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-03-ruins.jpg",
+    "thumb": "images/gallery/thumbs/around-03-ruins.jpg",
+    "alt": "Tulum archaeological site",
+    "alt_es": "Zona arqueológica de Tulum",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-04-temple-frescoes.jpg",
+    "thumb": "images/gallery/thumbs/around-04-temple-frescoes.jpg",
+    "alt": "Temple of the Frescoes",
+    "alt_es": "Templo de los Frescos",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-05-palapa-beach.jpg",
+    "thumb": "images/gallery/thumbs/around-05-palapa-beach.jpg",
+    "alt": "White sand and turquoise water",
+    "alt_es": "Arena blanca y agua turquesa",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-06-temple.jpg",
+    "thumb": "images/gallery/thumbs/around-06-temple.jpg",
+    "alt": "Mayan temple in the morning sun",
+    "alt_es": "Templo maya bajo el sol de la mañana",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-07-talavera.jpg",
+    "thumb": "images/gallery/thumbs/around-07-talavera.jpg",
+    "alt": "Talavera and textiles in town",
+    "alt_es": "Talavera y textiles en el pueblo",
+    "group": "around"
+  },
+  {
+    "full": "images/gallery/around-08-town.jpg",
+    "thumb": "images/gallery/thumbs/around-08-town.jpg",
+    "alt": "Strolling Tulum town",
+    "alt_es": "Paseando por el centro de Tulum",
+    "group": "around"
   }
 ]

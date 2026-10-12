@@ -9,6 +9,8 @@ Reads photos.json, the list of picked photos. Each entry:
   name - output name; the gallery follows the order of photos.json
   alt  - short description (for accessibility and Google)
   hero - optional; this photo becomes the big cover image at the top of the page
+  group - optional; "around" puts it in the Around Tulum strip (Location section) instead of the gallery
+  alt_es - optional Spanish caption
 To swap a photo, change "src". To drop one, delete its line. To reorder, move lines.
 
 Writes images/gallery/<name>.jpg (1800px), images/gallery/thumbs/<name>.jpg (700px) and gallery.json.
@@ -45,6 +47,8 @@ def main():
         save(img, OUT / name, 1800, 82)
         save(img, THUMBS / name, 700, 78)
         e = {"full": f"images/gallery/{name}", "thumb": f"images/gallery/thumbs/{name}", "alt": p.get("alt", "")}
+        if p.get("alt_es"): e["alt_es"] = p["alt_es"]
+        if p.get("group"): e["group"] = p["group"]
         if p.get("hero"): e["hero"] = True
         entries.append(e)
         print("ok", p["src"], "->", name)
