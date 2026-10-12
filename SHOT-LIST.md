@@ -28,4 +28,11 @@
 
 ## From earlier trips
 - [x] Beach + ruins added (8 in Around Tulum strip)
-- [ ] Cenote photo (none in the set yet)
+
+## Around Tulum — next trip
+- [ ] Cenote: wide shot showing the water color + one looking up toward the light
+      (late morning, when sun reaches the water; landscape; no crowds in frame)
+- [ ] Restaurants/cafés near La Veleta & Aldea Zamá: storefront, interior mood, a plated dish or drink
+- [ ] Shops: colorful displays (textiles, Talavera, crafts), street signs, bikes
+- [ ] Ask staff before shooting inside; avoid recognizable faces (or get OK)
+- [ ] Note each place's name so we can caption it
