@@ -28,8 +28,9 @@ Gear: Sony a6400 · 18-200 zoom · Rokinon 12mm (manual) · Godox TT350 + XProII
   fixes most of it; also shoot one frame with the room lights OFF in bathrooms.
 - Daytime outdoors with shade (terrace, patio): TT350 with HSS for fill so the shade isn't dark.
 - Details: 18-200 at 50–135mm, f/5.6, handheld is fine.
-- Buy a circular polarizer (check lens filter size; the Rokinon 12mm is 67mm). It makes pool water and
-  sky clear and turquoise.
+- Polarizer (outdoors only): rotate while looking at the pool until reflections drop and the water turns
+  turquoise. Take it OFF indoors (costs ~1.5 stops) and on the 12mm for skies (makes the sky blotchy).
+  A budget polarizer can add a slight color cast or soften the image; shoot RAW and take one frame without it.
 
 ## Shot list — the unit (top priority)
 - [ ] 1. COVER: patio + dipping pool at blue hour — tripod, 12mm, interior + pool lights on,
@@ -52,19 +53,18 @@ Gear: Sony a6400 · 18-200 zoom · Rokinon 12mm (manual) · Godox TT350 + XProII
 
 ## The complex
 - [ ] 14. Main pool + palapa, sunny midday, from an upper balcony (replaces 15, 18), polarizer
-- [ ] 15. Rooftop pool, only if residents can use it — with clean water
-- [ ] 16. Gated entry / parking
+- [ ] 15. Gated entry / parking
 - (Keep: night pool shots, clubhouse, gym — those are already good)
 
 ## Around Tulum
-- [ ] 17. Cenote — 12mm wide showing water color + one looking up toward the light.
+- [ ] 16. Cenote — 12mm wide showing water color + one looking up toward the light.
           Late morning for light beams. Ask about camera fees/tripod rules; if no tripod,
           ISO 800–1600 handheld and bracket.
-- [ ] 18. Restaurants/cafés near La Veleta & Aldea Zamá — storefront, interior (bounce flash),
+- [ ] 17. Restaurants/cafés near La Veleta & Aldea Zamá — storefront, interior (bounce flash),
           a dish or drink at 50–100mm. Ask first; note names for captions.
-- [ ] 19. Shops — textiles, Talavera, crafts, colorful signs
-- [ ] 20. Beach on a sunny day (the current beach set was overcast) — polarizer
-- [ ] 21. La Veleta street scene — bikes, cafés, trees
+- [ ] 18. Shops — textiles, Talavera, crafts, colorful signs
+- [ ] 19. Beach on a sunny day (the current beach set was overcast) — polarizer
+- [ ] 20. La Veleta street scene — bikes, cafés, trees
 - (Keep: ruins — already strong)
 
 ## Also grab (phone is fine)
@@ -74,6 +74,6 @@ Gear: Sony a6400 · 18-200 zoom · Rokinon 12mm (manual) · Godox TT350 + XProII
 ## Suggested schedule
 - Day 1: stage the unit, note when sun reaches the patio pool, shoot #1 at blue hour
 - Day 2 (mid-morning, sun not shining straight in windows): interiors #3–13
-- Day 3: #2 and #14 around midday; cenote late morning another day
+- Day 3: #2 and #14 around midday (rooftop pools are private, skip); cenote late morning another day
 - Any evening: restaurants, shops, street
 - Afterward: download into photos-original/Nov-2026/ (keep the RAWs) — I'll pick and edit
